@@ -1,0 +1,2 @@
+# Ensure that all line endings are the same. Required for the unit tests.
+* text=auto eol=lf

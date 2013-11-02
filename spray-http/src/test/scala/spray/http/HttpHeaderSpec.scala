@@ -28,7 +28,7 @@ import HttpEncodings._
 import HttpMethods._
 
 class HttpHeaderSpec extends Specification {
-  val EOL = System.getProperty("line.separator")
+  val EOL = "\n"
   val `application/vnd.spray` = MediaTypes.register(MediaType.custom("application/vnd.spray"))
 
   "The HTTP header model must correctly parse and render the following headers" >> {
